@@ -1,0 +1,370 @@
+.topic {
+    background-image: none !important;
+}
+#leftPane {
+    width: 355px;
+}
+#searchForm {
+    margin-right: 15px;
+}
+#productToolbar {
+    padding-left: 258px;
+}
+#breadcrumbLinks {
+    padding-top: 6px;
+}
+#breadcrumbLinks::before {
+  content: "Home  ";
+  color: rgba(255, 255, 255, 0.91);
+  white-space: pre;
+}
+#breadcrumbLinks > span::before {
+  content: ">";
+  color: rgba(255, 255, 255, 0.91);
+}
+#breadcrumbLinks a {
+	margin-left: 7px !important;
+	margin-right: 7px !important;
+}
+#header #customLogo {
+    background-image: url(/img/logo-dark-medium.png);
+}
+table.tool {
+    background-color: rgb(15, 72, 115);
+    padding-top: 4px;
+}
+body > div.chapter > div > div > div > h1.title,
+body > div.chapter > div > div > div > h2.title,
+body > div.chapter > div > div > div > h3.title,
+body > div.chapter > div > div > div > h4.title,
+body > div.chapter > div > div > div > h5.title,
+body > div.chapter > div > div > div > h6.title,
+body > div.section > div > div > div > h1.title,
+body > div.section > div > div > div > h2.title,
+body > div.section > div > div > div > h3.title,
+body > div.section > div > div > div > h4.title,
+body > div.section > div > div > div > h5.title,
+body > div.section > div > div > div > h6.title {
+    font-size: 2em;
+    margin: 1em 0;
+}
+body > div.chapter > div.section > div > div > div > h1.title,
+body > div.chapter > div.section > div > div > div > h2.title,
+body > div.chapter > div.section > div > div > div > h3.title,
+body > div.chapter > div.section > div > div > div > h4.title,
+body > div.chapter > div.section > div > div > div > h5.title,
+body > div.chapter > div.section > div > div > div > h6.title,
+body > div.section > div.section > div > div > div > h1.title,
+body > div.section > div.section > div > div > div > h2.title,
+body > div.section > div.section > div > div > div > h3.title,
+body > div.section > div.section > div > div > div > h4.title,
+body > div.section > div.section > div > div > div > h5.title,
+body > div.section > div.section > div > div > div > h6.title {
+    font-size: 1.5em;
+}
+body > div.chapter > div.section > div.section > div > div > div > h1.title,
+body > div.chapter > div.section > div.section > div > div > div > h2.title,
+body > div.chapter > div.section > div.section > div > div > div > h3.title,
+body > div.chapter > div.section > div.section > div > div > div > h4.title,
+body > div.chapter > div.section > div.section > div > div > div > h5.title,
+body > div.chapter > div.section > div.section > div > div > div > h6.title,
+body > div.section > div.section > div.section > div > div > div > h1.title,
+body > div.section > div.section > div.section > div > div > div > h2.title,
+body > div.section > div.section > div.section > div > div > div > h3.title,
+body > div.section > div.section > div.section > div > div > div > h4.title,
+body > div.section > div.section > div.section > div > div > div > h5.title,
+body > div.section > div.section > div.section > div > div > div > h6.title {
+    font-size: 1.3em;
+}
+body > div.chapter > div.section > div.section > div.section > div > div > div > h1.title,
+body > div.chapter > div.section > div.section > div.section > div > div > div > h2.title,
+body > div.chapter > div.section > div.section > div.section > div > div > div > h3.title,
+body > div.chapter > div.section > div.section > div.section > div > div > div > h4.title,
+body > div.chapter > div.section > div.section > div.section > div > div > div > h5.title,
+body > div.chapter > div.section > div.section > div.section > div > div > div > h6.title,
+body > div.section > div.section > div.section > div.section > div > div > div > h1.title,
+body > div.section > div.section > div.section > div.section > div > div > div > h2.title,
+body > div.section > div.section > div.section > div.section > div > div > div > h3.title,
+body > div.section > div.section > div.section > div.section > div > div > div > h4.title,
+body > div.section > div.section > div.section > div.section > div > div > div > h5.title,
+body > div.section > div.section > div.section > div.section > div > div > div > h6.title {
+    font-size: 1.2em;
+}
+h1.title, h2.title, h3.title, h4.title, h5.title, h6.title {
+    background-color: transparent;
+    box-shadow: none;
+    margin: 0.5em 0;
+    padding-left: 0;
+    font-weight: normal;
+}
+body > div.chapter > div > div > div > h1.subtitle,
+body > div.chapter > div > div > div > h2.subtitle,
+body > div.chapter > div > div > div > h3.subtitle,
+body > div.chapter > div > div > div > h4.subtitle,
+body > div.chapter > div > div > div > h5.subtitle,
+body > div.chapter > div > div > div > h6.subtitle,
+body > div.section > div > div > div > h1.subtitle,
+body > div.section > div > div > div > h2.subtitle,
+body > div.section > div > div > div > h3.subtitle,
+body > div.section > div > div > div > h4.subtitle,
+body > div.section > div > div > div > h5.subtitle,
+body > div.section > div > div > div > h6.subtitle {
+    font-size: 1.2em;
+}
+body > div.chapter > div.section > div > div > div > h1.subtitle,
+body > div.chapter > div.section > div > div > div > h2.subtitle,
+body > div.chapter > div.section > div > div > div > h3.subtitle,
+body > div.chapter > div.section > div > div > div > h4.subtitle,
+body > div.chapter > div.section > div > div > div > h5.subtitle,
+body > div.chapter > div.section > div > div > div > h6.subtitle,
+body > div.section > div.section > div > div > div > h1.subtitle,
+body > div.section > div.section > div > div > div > h2.subtitle,
+body > div.section > div.section > div > div > div > h3.subtitle,
+body > div.section > div.section > div > div > div > h4.subtitle,
+body > div.section > div.section > div > div > div > h5.subtitle,
+body > div.section > div.section > div > div > div > h6.subtitle {
+    font-size: 1.1em;
+}
+body > div.chapter > div.section > div.section > div > div > div > h1.subtitle,
+body > div.chapter > div.section > div.section > div > div > div > h2.subtitle,
+body > div.chapter > div.section > div.section > div > div > div > h3.subtitle,
+body > div.chapter > div.section > div.section > div > div > div > h4.subtitle,
+body > div.chapter > div.section > div.section > div > div > div > h5.subtitle,
+body > div.chapter > div.section > div.section > div > div > div > h6.subtitle,
+body > div.section > div.section > div.section > div > div > div > h1.subtitle,
+body > div.section > div.section > div.section > div > div > div > h2.subtitle,
+body > div.section > div.section > div.section > div > div > div > h3.subtitle,
+body > div.section > div.section > div.section > div > div > div > h4.subtitle,
+body > div.section > div.section > div.section > div > div > div > h5.subtitle,
+body > div.section > div.section > div.section > div > div > div > h6.subtitle {
+    font-size: 1.1em;
+}
+body > div.chapter > div.section > div.section > div.section > div > div > div > h1.subtitle,
+body > div.chapter > div.section > div.section > div.section > div > div > div > h2.subtitle,
+body > div.chapter > div.section > div.section > div.section > div > div > div > h3.subtitle,
+body > div.chapter > div.section > div.section > div.section > div > div > div > h4.subtitle,
+body > div.chapter > div.section > div.section > div.section > div > div > div > h5.subtitle,
+body > div.chapter > div.section > div.section > div.section > div > div > div > h6.subtitle,
+body > div.section > div.section > div.section > div.section > div > div > div > h1.subtitle,
+body > div.section > div.section > div.section > div.section > div > div > div > h2.subtitle,
+body > div.section > div.section > div.section > div.section > div > div > div > h3.subtitle,
+body > div.section > div.section > div.section > div.section > div > div > div > h4.subtitle,
+body > div.section > div.section > div.section > div.section > div > div > div > h5.subtitle,
+body > div.section > div.section > div.section > div.section > div > div > div > h6.subtitle {
+    font-size: 1.1em;
+}
+h1.subtitle, h2.subtitle, h3.subtitle, h4.subtitle, h5.subtitle, h6.subtitle {
+    background-color: transparent;
+    box-shadow: none;
+    margin: -0.5em 0 1em;
+    padding-left: 0;
+    font-weight: normal;
+}
+.subtitle em {
+	font-style: normal !important;
+}
+div.chapter div.section div.toc {
+  display: none;
+}
+div.section div.section div.toc {
+  display: none;
+}
+div.toc a, .section a.link {
+    color: #3572b0;
+    text-decoration: none;
+}
+div.toc a:hover, .section > a.link:hover,
+div.toc a:active, .section > a.link:active {
+    color: #3572b0;
+    text-decoration: underline;
+}
+div.toc a:visited, .section > a.link:visited {
+    color: #609;
+}
+#navigationLinks a {
+    text-decoration: none;
+}
+td, th {
+    vertical-align: top;
+}
+.informaltable table,
+.table table {
+    border: none;
+    border-collapse: collapse;
+    max-width: 800px;
+}
+.informaltable table th,
+.table table th {
+    font-size: 14px;
+    background-color: #f0f0f0;
+    text-align: left;
+}
+.informaltable th,
+.informaltable td,
+.table th,
+.table td {
+    border: 1px #ccc solid;
+    margin: 0;
+    padding: 8px;
+}
+.informaltable p,
+.table p {
+    padding: 0;
+    margin: 0;
+}
+.informaltable ul,
+.table ul {
+    padding-top: 0;
+    margin: 0;
+}
+.informaltable li p,
+.table li p {
+    padding: 0;
+    margin: 0;
+}
+li.listitem  p {
+    padding: 0;
+    margin: 2px;
+}
+#bkml-examples\.page .informaltable th {
+    background-color: #fff;
+    text-align: center;
+}
+#bkml-examples\.page .informaltable th,
+#bkml-examples\.page .informaltable td {
+    border: none;
+}
+#release-notes\.page .informaltable td {
+    width: 800px;
+}
+pre.programlisting {
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    margin-left: 0;
+    margin-right: -2px;
+    max-width: 1000px !important;
+}
+div.syntaxhighlighter {
+    border: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+td div.syntaxhighlighter {
+	max-width: 800px;
+}
+.informaltable div.mediaobject {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px;
+}
+.screenshot div.mediaobject {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px;
+    width: 800px;
+}
+div.caption p {
+    font-weight: bold;
+}
+div.chapter > p,
+div.section > p,
+div.chapter > div.orderedlist,
+div.section > div.orderedlist,
+div.chapter > div.itemizedlist,
+div.section > div.itemizedlist {
+  max-width: 1000px;
+}
+div.chapter > div.example,
+div.section > div.example,
+div.syntaxhighlighter {
+  max-width: 1000px;
+}
+div.warning {
+	margin: .5em 0 !important;
+}
+div.warning table {
+	border: 1px #ccc solid;
+	border-radius: 0.5em;
+	background-color: rgb(252, 251, 196);
+	padding: 0 0.5em;
+    width: 1000px !important;
+}
+div.warning tr:first-child {
+  display: none;
+}
+div.warning tr:last-child td > p::before {
+  content: url(/img/warning.png);
+  float: left;
+  margin-right: 0.5em;
+}
+div.important {
+	margin: .5em 0 !important;
+}
+div.important table {
+	border: 1px #ccc solid;
+	border-radius: 0.5em;
+	background-color: rgb(239, 244, 252);
+	padding: 0 0.5em;
+    width: 1000px !important;
+}
+div.important tr:first-child {
+  display: none;
+}
+div.important tr:last-child td > p::before {
+  content: url(/img/important.png);
+  float: left;
+  margin-right: 0.5em;
+}
+p.copyright,
+p.timestamp {
+    font-size: 80%;
+    margin-right: 1em;
+}
+p.copyright {
+    float: left;
+}
+p.timestamp {
+    float: right;
+}
+#navigationLinks {
+    display: none;
+}
+#logout {
+	color: white;
+	text-decoration: none;
+	margin-right: 10px;
+}
+#versionForm {
+  float: right;
+  color: white;
+  margin-top: 10px;
+}
+#versionForm select {
+  width: 120px;
+  height: 22px;
+  margin: 0 10px 0 5px;
+  padding: 0 10px;
+  border-radius: 5px;
+  text-align: right;
+}
+#overview\.page .mediaobject {
+  float: left;
+}
+#overview\.page table {
+  border-spacing: 0px;
+}
+#overview\.page .mediaobject img {
+  padding: 3px;
+  margin: 2px;
+  border: 1px solid #ccc;
+}
+#overview\.page p {
+  clear: both;
+}
+#testing\.page div.informaltable table {
+    width: 480px !important;
+}
+#testing\.page #testing\.subscription-services div.informaltable table {
+    width: 590px !important;
+}
+#release-notes\.page .subtitle {
+	font-style: italic;
+}
